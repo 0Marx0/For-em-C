@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+  int nA, nB, fat=1, i;
+  printf("De qual ateh qual numero calcular?: ");
+  scanf("%d%d", &nA, &nB);
+  for (i=nA; i<=nB; i++){
+    printf("%d!:", i);
+    fat = fat*i;
+    printf("%d\n", fat);
+    }
+}
