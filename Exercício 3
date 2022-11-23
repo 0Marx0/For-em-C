@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+  int val, i, soma;
+  printf("Digite ate qual numero calcular: ");
+  scanf("%i", &val);
+  for (i = 0; i <= val; i++){
+    if (i % 2 == 0){
+      soma += i;
+      printf("%d\t", i);
+    }
+  }
+  printf("\nA soma eh: %d", soma);
+  return 0;
+}
